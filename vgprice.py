@@ -18,7 +18,7 @@ class vgpriceObj(object):
             response = unirest.post("https://byroredux-metacritic.p.mashape.com/find/game",
 
                                     headers = {
-                                        "X-Mashape-Authorization": "W4On1vsJD1QaVnNRJrSyEyW4PMXvHfTd"
+                                        "X-Mashape-Authorization": ""
                                     },
                                     params = {
                                         "title": self.productname,
